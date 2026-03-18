@@ -51,7 +51,7 @@ Typing-Speed-Test/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/typing-speed-test.git
+git clone https://github.com/sutirthaghosh04/typing-speed-test.git
 ```
 
 ### 2. Open the project
