@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Dark Mode Button -->
+<button id="toggleTheme" class="theme-btn">🌙</button>
+
+<div id="container">
+  <h1>Typing Speed Test</h1>
+
+  <p id="text"></p>
+
+  <textarea id="input" placeholder="Start typing here..."></textarea>
+
+  <div class="buttons">
+    <button id="startBtn">Start Test</button>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <div class="result">
+    <p>Time Left: <span id="time">60</span> sec</p>
+    <p>Speed: <span id="speed">0</span> WPM</p>
+    <p>Accuracy: <span id="accuracy">0</span>%</p>
+    <p>Total Words: <span id="words">0</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

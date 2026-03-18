@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+/* Full page layout */
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+#text {
+  width: 70%;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+textarea {
+  width: 70%;
+  height: 140px;
+  font-size: 20px;
+  padding: 12px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Top-right dark button */
+.theme-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 6px;
+}
+
+/* Dark Mode */
+.dark {
+  background: #121212;
+  color: #fff;
+}
+
+.dark textarea {
+  background: #1e1e1e;
+  color: #fff;
+}
