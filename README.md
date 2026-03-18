@@ -7,7 +7,7 @@ Test your typing speed, accuracy, and performance in a clean and responsive inte
 
 ##  Live Demo
 
-👉 https://your-username.github.io/typing-speed-test/
+👉 https://sutirthaghosh04.github.io/typing-speed-test/
 
 ---
 
